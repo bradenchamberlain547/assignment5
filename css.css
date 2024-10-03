@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .5em;
+    margin: .3em;
+    background-color: #f2f2f2;
+}
+
+
+h1 {
+    background-color: #16dae4;
+    text-align: center;
+}
+
+.features{
+    background-color: #16dae4;
+    text-align: center;
+}
+
+footer{
+    background-color: #16dae4;
+    text-align: center;
+}
+
+@media(max-width: 600px){
+
+    .bass{
+        background-color: #7b3df7;
+        border: .1rem solid black;
+    }
+    .bluetooth{
+        background-color: #7b3df7;
+        border: .1rem solid black;
+    } 
+    .lights{
+        background-color: #7b3df7;
+        border: .1rem solid black;
+    }
+    .snug{
+        background-color: #7b3df7;
+        border: .1rem solid black;
+    }
+    .navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(253, 120, 202);
+        padding: .5rem;
+    }
+    .navbar img {
+        max-width: 100%;
+    }
+    div{
+        padding: .7rem;
+        text-align: center;
+    }
+}
+
+@media(min-width: 600px){ /* I know this isn't min-width: 1024 but i didn't want to make an inbetween one too haha */
+    .bass{
+        background-image: url("soundwaves.png");
+        border: .1rem solid black;
+        color: white;
+        max-width: 100%;
+        padding: 150px;
+    }
+    .bluetooth{
+        background-image: url("bluetooth.png");
+        border: .1rem solid black;
+        padding: 150px;
+        max-width: 100%;
+    } 
+    .lights{
+        background-image: url("led.png");
+        border: .1rem solid black;
+        color: white;
+        padding: 150px;
+    }
+    .snug{
+        background-image: url("blanket.png");
+        border: .1rem solid black;
+        padding: 75px;
+        max-width: 100%;
+    }
+    .navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(253, 120, 202);
+        padding: .5rem;
+    }
+    .navbar img {
+        max-width: 100%;
+    }
+    div{
+        padding: .7rem;
+        text-align: center;
+    }
+}
